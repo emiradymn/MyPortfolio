@@ -31,6 +31,6 @@ Veritabanı: Microsoft SQL Server<br>
 
 ![Ekran görüntüsü 2024-11-27 155905](https://github.com/user-attachments/assets/507d9799-e561-47f6-9ab3-146eb8ecde66)
 
-![Ekran görüntüsü 2024-11-27 164610](https://github.com/user-attachments/assets/9997eb74-7fa7-4b4e-9f59-6d81c7f7c5d1)
+![Ekran görüntüsü 2024-11-27 173105](https://github.com/user-attachments/assets/632dfa35-e4d6-4ac3-8d6d-fa76977d0568)
 ### -Admin Paneli-
 ![Ekran görüntüsü 2024-11-27 165110](https://github.com/user-attachments/assets/d14b550b-9ad9-4360-9630-e9135010acb1)
