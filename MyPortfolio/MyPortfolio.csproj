@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\Components\_AboutComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_BlogComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_ContanctComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_ExperienceComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_FeatureComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_FooterComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_HeadComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutHeadComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutNavbarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutScriptComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_LayoutSidebarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_NavbarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_PortfolioComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_SkillComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_StatisticComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_TestmonialComponentPartial\" />
+  </ItemGroup>
+</Project>

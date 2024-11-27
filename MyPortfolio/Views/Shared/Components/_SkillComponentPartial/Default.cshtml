@@ -1,0 +1,18 @@
+@model List<Skill>
+    @{
+    int value = 0;
+    }
+    <div class="col-six tab-full right">
+        <h3>Yeteneklerim</h3>
+
+        <ul class="skill-bars">
+            @foreach(var item in Model)
+            {
+            value = item.Value; <!-- Bu satır, her bir öğenin değerini alır -->
+            <li>
+                <div class="progress percent@item.Value"><span>@item.Value%</span></div>
+                <strong>@item.Title</strong>
+            </li>
+            }
+        </ul>
+    </div>

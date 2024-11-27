@@ -1,0 +1,24 @@
+@model Message
+@{
+ViewData["Title"] = "MessageDetails";
+Layout = "/Views/Layout/index.cshtml";
+}
+
+<input type="hidden" asp-for="MessageId">
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            Mesaj Bilgileri
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Gönderen: @Model.NameSurname</h5>
+            <p class="card-text"><strong>Konu:</strong> @Model.Subject</p>
+            <p class="card-text"><strong>İçerik:</strong> @Model.MessageDetail</p>
+            <p class="card-text"><strong>Gönderen Mail:</strong> @Model.Email</p>
+            <p class="card-text"><strong>Gönderilme Tarihi:</strong> @Model.SendDate</p>
+        </div>
+        <div class="card-footer text-muted">
+            Mesaj Sonu
+        </div>
+    </div>
+</div>
